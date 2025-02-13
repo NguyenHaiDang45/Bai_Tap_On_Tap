@@ -1,0 +1,68 @@
+package Exercise1;
+
+public class Ex1_4_Employee {
+    private int id;
+    private String firstName;
+    private String lastName;
+    private int salary;
+
+    public Ex1_4_Employee(int id, String firstName, String lastName, int salary) {
+        this.id = id;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.salary = salary;
+    }
+
+    public Ex1_4_Employee() {
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    public int getSalary() {
+        return salary;
+    }
+
+    public void setSalary(int salary) {
+        this.salary = salary;
+    }
+
+    public String getName() {
+        return firstName + " " + lastName;
+    }
+
+    public int getAnnualSalary() {
+        return salary*12;
+    }
+
+    public int raiseSalary(int percent) {
+        int raiseS = salary * percent / 100;
+        return salary + raiseS;
+    }
+
+    @Override
+    public String toString() {
+        return "Employee[ID: " + id + ", Name: " + getName() + ", Salary: " + salary + "]";
+    }
+}
