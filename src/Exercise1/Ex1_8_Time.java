@@ -68,7 +68,7 @@ public class Ex1_8_Time {
     }
 
     public Ex1_8_Time previousSecond() {
-        second++;
+        second--;
 
         if (second < 0) {
             second = 59;
