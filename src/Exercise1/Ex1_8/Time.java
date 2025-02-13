@@ -1,17 +1,17 @@
-package Exercise1;
+package Exercise1.Ex1_8;
 
-public class Ex1_8_Time {
+public class Time {
     private int hour;
     private int minute;
     private int second;
 
-    public Ex1_8_Time(int hour, int minute, int second) {
+    public Time(int hour, int minute, int second) {
         this.hour = hour;
         this.minute = minute;
         this.second = second;
     }
 
-    public Ex1_8_Time() {
+    public Time() {
     }
 
     public int getHour() {
@@ -49,7 +49,7 @@ public class Ex1_8_Time {
         return String.format("%02d:%02d:%02d", hour, minute, second);
     }
 
-    public Ex1_8_Time nextSecond() {
+    public Time nextSecond() {
         second++;
 
         if (second >= 60) {
@@ -67,7 +67,7 @@ public class Ex1_8_Time {
         return this;
     }
 
-    public Ex1_8_Time previousSecond() {
+    public Time previousSecond() {
         second--;
 
         if (second < 0) {

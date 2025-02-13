@@ -1,19 +1,19 @@
-package Exercise1;
+package Exercise1.Ex1_4;
 
-public class Ex1_4_Employee {
+public class Employee {
     private int id;
     private String firstName;
     private String lastName;
     private int salary;
 
-    public Ex1_4_Employee(int id, String firstName, String lastName, int salary) {
+    public Employee(int id, String firstName, String lastName, int salary) {
         this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;
         this.salary = salary;
     }
 
-    public Ex1_4_Employee() {
+    public Employee() {
     }
 
     public int getId() {

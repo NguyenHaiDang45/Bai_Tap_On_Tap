@@ -1,13 +1,13 @@
-package Exercise1;
+package Exercise1.Ex1_2;
 
-public class Ex1_2_AnotherCircle {
+public class Circle {
     private double radius;
 
-    public Ex1_2_AnotherCircle(double radius) {
+    public Circle(double radius) {
         this.radius = radius;
     }
 
-    public Ex1_2_AnotherCircle() {
+    public Circle() {
     }
 
     public double getRadius() {

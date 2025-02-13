@@ -1,17 +1,17 @@
-package Exercise1;
+package Exercise1.Ex1_7;
 
-public class Ex1_7_Date {
+public class Date {
     private int day;
     private int month;
     private int year;
 
-    public Ex1_7_Date(int day, int month, int year) {
+    public Date(int day, int month, int year) {
         this.day = day;
         this.month = month;
         this.year = year;
     }
 
-    public Ex1_7_Date() {
+    public Date() {
     }
 
     public int getDay() {

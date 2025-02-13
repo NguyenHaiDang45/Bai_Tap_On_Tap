@@ -1,15 +1,15 @@
-package Exercise1;
+package Exercise1.Ex1_3;
 
-public class Ex1_3_Rectangle {
+public class Rectangle {
     private float length;
     private float width;
 
-    public Ex1_3_Rectangle(float length, float width) {
+    public Rectangle(float length, float width) {
         this.length = length;
         this.width = width;
     }
 
-    public Ex1_3_Rectangle() {
+    public Rectangle() {
     }
 
     public float getLength() {

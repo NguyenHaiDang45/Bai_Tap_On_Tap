@@ -1,17 +1,17 @@
-package Exercise1;
+package Exercise1.Ex1_6;
 
-public class Ex1_6_Account {
+public class Account {
     private String id;
     private String name;
     private int balance;
 
-    public Ex1_6_Account(String id, String name, int balance) {
+    public Account(String id, String name, int balance) {
         this.id = id;
         this.name = name;
         this.balance = balance;
     }
 
-    public Ex1_6_Account(String id, String name) {
+    public Account(String id, String name) {
         this.id = id;
         this.name = name;
         balance = 0;
@@ -54,7 +54,7 @@ public class Ex1_6_Account {
         return balance;
     }
 
-    public int transferTo(Ex1_6_Account another, int amount) {
+    public int transferTo(Account another, int amount) {
         if (amount <= balance) {
             another.balance += amount;
             balance = debit(amount);

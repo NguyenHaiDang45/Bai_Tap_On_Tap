@@ -1,13 +1,13 @@
-package Exercise1;
+package Exercise1.Ex1_9;
 
-public class Ex1_9_Ball {
+public class Ball {
     private float x;
     private float y;
     private int radius;
     private float xDelta;
     private float yDelta;
 
-    public Ex1_9_Ball(float x, float y, int radius, float xDelta, float yDelta) {
+    public Ball(float x, float y, int radius, float xDelta, float yDelta) {
         this.x = x;
         this.y = y;
         this.radius = radius;
@@ -15,7 +15,7 @@ public class Ex1_9_Ball {
         this.yDelta = yDelta;
     }
 
-    public Ex1_9_Ball() {
+    public Ball() {
     }
 
     public float getX() {
